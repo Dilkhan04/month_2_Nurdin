@@ -18,6 +18,7 @@
 // argumentLength()
 
 // Задание №3
+// 3.1
 
 // const num1 = prompt("Введите первое число?");
 // const maths = prompt("+ or - or : or * ???");
@@ -36,6 +37,35 @@
 //     } else if(maths === "*"){
 //         sum = num1 * num2;
 //         console.log(sum)
+//     } else {
+//         alert("У вас ОШИБКА!!!")
 //     }
 // }
 // math()
+
+// 3.2
+
+// let num1 = prompt("Введите первое число?");
+// let maths = prompt("+ or - or : or * ???");
+// let num2 = prompt("Введите второе число?");
+// let result;
+// switch (num1, num2, maths){
+//     case "+":
+//         result = parseInt(num1) + parseInt(num2)
+//         console.log(result)
+//         break;
+//     case "-":
+//         result = num1 - num2
+//         console.log(result)
+//         break;
+//     case "*":
+//         result = num1 * num2
+//         console.log(result)
+//         break;
+//     case "/":
+//         result = num1 / num2
+//         console.log(result)
+//         break;
+//     default:
+//         console.log("Default")
+// }
