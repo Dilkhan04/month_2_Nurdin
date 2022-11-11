@@ -45,27 +45,27 @@
 
 // 3.2
 
-let num1 = prompt("Введите первое число?");
-let maths = prompt("+ or - or : or * ???");
-let num2 = prompt("Введите второе число?");
-let result;
-switch (num1, num2, maths){
-    case "+":
-        result = parseInt(num1) + parseInt(num2)
-        console.log(result)
-        break;
-    case "-":
-        result = num1 - num2
-        console.log(result)
-        break;
-    case "*":
-        result = num1 * num2
-        console.log(result)
-        break;
-    case "/":
-        result = num1 / num2
-        console.log(result)
-        break;
-    default:
-        alert("У вас ОШИБКА!!!")
-}
+// let num1 = prompt("Введите первое число?");
+// let maths = prompt("+ or - or : or * ???");
+// let num2 = prompt("Введите второе число?");
+// let result;
+// switch (num1, num2, maths){
+//     case "+":
+//         result = parseInt(num1) + parseInt(num2)
+//         console.log(result)
+//         break;
+//     case "-":
+//         result = num1 - num2
+//         console.log(result)
+//         break;
+//     case "*":
+//         result = num1 * num2
+//         console.log(result)
+//         break;
+//     case "/":
+//         result = num1 / num2
+//         console.log(result)
+//         break;
+//     default:
+//         alert("У вас ОШИБКА!!!")
+// }
